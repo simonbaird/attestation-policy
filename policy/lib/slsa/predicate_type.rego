@@ -1,7 +1,5 @@
 package lib.slsa
 
-# Anything in lib should be 100% reusable with zero EC-isms
-
 import rego.v1
 
 expected_predicate_type := "https://slsa.dev/provenance/v0.2"

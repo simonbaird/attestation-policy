@@ -1,4 +1,4 @@
-package attestations
+package lib.ec
 
 import rego.v1
 
