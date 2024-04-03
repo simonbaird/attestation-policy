@@ -1,4 +1,4 @@
-package ec
+package lib.str
 
 import rego.v1
 

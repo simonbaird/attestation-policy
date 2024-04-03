@@ -1,4 +1,4 @@
-package slsa
+package lib.slsa
 
 # Anything in lib should be 100% reusable with zero EC-isms
 
