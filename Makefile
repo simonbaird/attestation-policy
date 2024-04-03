@@ -38,6 +38,5 @@ test:
 live-test:
 	@opa test ./policy -v -w
 
-# Beware it does break things by removing `:= true` in some places
 fmt:
 	@opa fmt ./policy --write

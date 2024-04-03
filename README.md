@@ -19,6 +19,7 @@ See also:
 
 ### Apr 3, 2024
 
+* Currently using opa 0.63.0.
 * Only trivial checks are defined so far.
 * Some unit tests exist, but only for simple stuff.
 * Likes:
