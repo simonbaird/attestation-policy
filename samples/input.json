@@ -1,0 +1,11 @@
+{
+  "bacon":"crispy",
+  "attestations": [
+    {
+      "statement": {"predicateType": "aaa"}
+    },
+    {
+      "statement": {"predicateType": "bbb"}
+    }
+  ]
+}
