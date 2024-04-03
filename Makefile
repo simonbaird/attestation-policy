@@ -27,7 +27,7 @@ export EXPR
 go:
 	@opa eval "$${EXPR}" -d ./policy -i ./samples/input.json -f pretty
 
-ci: quiet-test fmt-check
+ci: quiet-test fmt-check opa-check
 
 quiet-test:
 	@opa test ./policy
@@ -45,3 +45,6 @@ fmt:
 fmt-check:
 	@opa fmt ./policy --list | xargs -r -n1 echo 'FAIL: Incorrect formatting found in'
 	@opa fmt ./policy --list --fail >/dev/null 2>&1
+
+opa-check:
+	@opa check ./policy --strict
